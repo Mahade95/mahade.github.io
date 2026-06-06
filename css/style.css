@@ -5,6 +5,45 @@ body{
     color:#333;
 }
 
+body{
+margin:0;
+font-family:Arial,sans-serif;
+display:flex;
+background:#f5f7fa;
+}
+
+.sidebar{
+width:260px;
+min-height:100vh;
+background:#0b2545;
+padding:30px 20px;
+position:fixed;
+left:0;
+top:0;
+}
+
+.sidebar h2{
+color:white;
+margin-bottom:40px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+text-decoration:none;
+padding:12px 0;
+font-size:17px;
+}
+
+.sidebar a:hover
+
+.main-content{
+margin-left:280px;
+width:100%;
+padding:30px;
+}
+
+
 header{
     background:#0b2545;
     color:white;
